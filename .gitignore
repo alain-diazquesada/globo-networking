@@ -1,5 +1,5 @@
 #  Local .terraform directories
-./.terraform/*
+/.terraform/*
 
 # .tfstate files
 *.tfstate
@@ -16,7 +16,7 @@
 
 # Consul data directories
 # **/network_config/*
-**/application_config/*
+/application_config/*
 
 # .hcl files
 *.hcl
